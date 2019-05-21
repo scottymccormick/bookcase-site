@@ -1,0 +1,24 @@
+{
+  "name": "bookcase-site",
+  "version": "1.0.0",
+  "description": "Front end Express application for finding and organizing your library of books",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottymccormick/bookcase-site.git"
+  },
+  "author": "Scotty McCormick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottymccormick/bookcase-site/issues"
+  },
+  "homepage": "https://github.com/scottymccormick/bookcase-site#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0"
+  }
+}
