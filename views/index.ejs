@@ -11,7 +11,11 @@
     </form>
   </div>
   <section>
-    <form action="/books/"></form>
+    <ul class="center">
+      <% for(let i = 0; i < books.length; i++) { %>
+        <li><%= books[i] %></li>
+      <% } %>
+    </ul>
   </section>
 </main>
 <%- include('partials/footer') %>

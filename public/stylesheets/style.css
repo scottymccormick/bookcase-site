@@ -14,9 +14,9 @@ h1 {
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
   display: flex;
   justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
   width: 100%;
 }
