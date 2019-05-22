@@ -9,6 +9,10 @@ h1 {
   margin-top: 16px;
 }
 
+.search-form {
+  margin-top: 60px;
+}
+
 footer {
   position: absolute;
   bottom: 10px;
