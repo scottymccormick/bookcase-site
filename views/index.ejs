@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bookcase</title>
-</head>
-<body>
-  <header>
-    <h1>Bookcase</h1>
-  </header>
-  <footer>
-    &copy; Scotty McCormick
-  </footer>
-</body>
-</html>
+<%- include('partials/header') %>
+<main class="container">
+  <div class="row">
+    <form class="col s12 search-form" action="/" method="POST">
+      <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <input id="text-field" type="text" name="search" placeholder="e.g. Harry Potter, The Shining, Tolkien...">
+          <label for="text-field">Search</label>
+        </div>
+      </div>
+    </form>
+  </div>
+  <section>
+    <ul class="center">
+      <% for(let i = 0; i < books.length; i++) { %>
+        <li><%= books[i] %></li>
+      <% } %>
+    </ul>
+  </section>
+</main>
+<%- include('partials/footer') %>

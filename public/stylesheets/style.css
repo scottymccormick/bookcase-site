@@ -1,3 +1,22 @@
 body {
-  background-color: beige;
+  background-color: white;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.search-form {
+  margin-top: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  width: 100%;
 }
